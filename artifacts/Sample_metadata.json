@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "myBool",
+				"name": "myString",
 				"outputs": [
 					{
-						"internalType": "bool",
+						"internalType": "string",
 						"name": "",
-						"type": "bool"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -21,12 +21,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "bool",
-						"name": "_mybool",
-						"type": "bool"
+						"internalType": "string",
+						"name": "_myString",
+						"type": "string"
 					}
 				],
-				"name": "setMyBool",
+				"name": "updateString",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Sample.sol": {
-			"keccak256": "0x916160eafa9b0ada21f12af3afe01258ad940da70c15be79a48f2d2b9a3cfe5c",
+			"keccak256": "0x0b9998a110ffb2561605a650b90be2f9e6480c2c79f1ee4ea4a7c2f39a287f3b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8857a1afb010b772331f4bb4f84a740ed8b09c756f5df99357a13d8390a7eb79",
-				"dweb:/ipfs/QmcHAUxTkLPj658GDCe2PZjGtELDLkiE3DMuzhQV3LfdF2"
+				"bzz-raw://2a6552588f17e3aabcb207a1cc45dbfaf2a47a37d113bedb09f2971d6c60eaad",
+				"dweb:/ipfs/QmPACCtaWuK7vLmnDRAnh3Rv95FYg6RaAZywjPqEEcVxHT"
 			]
 		}
 	},

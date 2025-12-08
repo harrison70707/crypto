@@ -3,8 +3,9 @@
 pragma solidity 0.8.14;
 
 contract Sample {
-    bool public myBool;
+    string public myString = "Hello";
 
-    function setMyBool(bool _mybool) public {
-        myBool = _mybool;    }
+    function updateString(string memory _myString) public {
+        myString = _myString;
+    }
 }
